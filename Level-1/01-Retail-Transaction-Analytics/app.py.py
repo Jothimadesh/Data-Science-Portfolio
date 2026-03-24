@@ -84,7 +84,9 @@ border-radius:10px;
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD DATA ----------------
-df = pd.read_csv("clean_superstore.csv")
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(BASE_DIR, "clean_superstore.csv"))
 
 palette = ["#3b82f6","#6366f1","#8b5cf6","#94a3b8"]
 
