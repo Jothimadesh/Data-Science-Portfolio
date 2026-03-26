@@ -1,0 +1,14 @@
+FINANCIAL NEWS SENTIMENT ANALYSIS
+Author: Jothi | Data Science Portfolio 2026
+
+Total Headlines: 4840
+VADER Accuracy: 54.38%
+Positive: 28.2%
+Negative: 12.5%
+Neutral: 59.4%
+
+Key Insights:
+1. Financial news is 59.4% neutral
+2. Positive news outnumbers negative 2:1
+3. VADER accuracy 54% - specialized models needed
+4. Negative news hardest to detect
