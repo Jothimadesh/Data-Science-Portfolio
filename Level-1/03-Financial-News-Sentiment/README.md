@@ -1,18 +1,18 @@
-📈 Financial News Sentiment Dashboard
+##📈 Financial News Sentiment Dashboard
 
-🎯 Business Problem
+##🎯 Business Problem
 Traders and analysts need real-time insight into market sentiment from financial news. This dashboard analyzes headlines to provide instant visibility into bullish, bearish, and neutral trends in financial markets.
 
-📊 Dataset
+##📊 Dataset
 Source: Financial Phrase Bank + curated news headlines  
 Rows: 4,900+ headlines  
 Columns: 2 features (Sentiment, News Headline)  
 Domain: Finance / Market Analysis
 
-🚀 Live Demo
+##🚀 Live Demo
 👉 [Open Live Dashboard](https://data-science-portfolio-yacj39cn5garnds7zwreg4.streamlit.app/)
 
-📈 Key Business Insights
+##📈 Key Business Insights
 • Positive headlines → indicate bullish trends  
 • Negative headlines → indicate bearish trends  
 • Neutral headlines → market stability  
@@ -20,7 +20,7 @@ Domain: Finance / Market Analysis
 • Most frequent words in positive headlines → “growth, profit, gains”  
 • Most frequent words in negative headlines → “loss, decline, risk”
 
-🛠️ Tools Used
+##🛠️ Tools Used
 | Tool      | Purpose                         |
 |-----------|--------------------------------|
 | Python    | Core programming               |
@@ -30,7 +30,7 @@ Domain: Finance / Market Analysis
 | Matplotlib| Word Cloud visualization       |
 | Streamlit | Dashboard deployment           |
 
-💡 Business Recommendations
+## Business Recommendations
 • Monitor bullish headlines for investment opportunities  
 • Track bearish headlines to mitigate risks  
 • Use word cloud insights to spot trending topics  
