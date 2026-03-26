@@ -80,7 +80,7 @@ h2, h3 {
 # ── LOAD DATA ────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv('all-data.csv', encoding='latin-1', header=None)
+    df = pd.read_csv('all-data-5.csv', encoding='latin-1', header=None)
     df.columns = ['sentiment', 'news_headline']
     df = df.drop_duplicates().reset_index(drop=True)
     df['news_headline'] = df['news_headline'].str.strip()
