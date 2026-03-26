@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import plotly.express as px
-
+import os
 # ── PAGE CONFIG ────────────────────────────────
 st.set_page_config(
     page_title="Financial News Sentiment Engine",
@@ -100,6 +100,7 @@ def load_data():
     )
 
     return df
+df = load_data()
 # ── HEADER ────────────────────────────────
 st.markdown('<h1 class="main-header">📈 Financial News Intelligence Platform</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtext">AI-Powered Sentiment Analysis for Financial Markets</p>', unsafe_allow_html=True)
