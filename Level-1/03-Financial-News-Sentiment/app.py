@@ -80,7 +80,12 @@ h2, h3 {
 # ── LOAD DATA ────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv('all-data-5.csv', encoding='latin-1', header=None)
+    df = pd.read_csv(
+        "Level-1/03-Financial-News-Sentiment/all-data-5.csv",
+        encoding='latin-1',
+        header=None
+    )
+
     df.columns = ['sentiment', 'news_headline']
     df = df.drop_duplicates().reset_index(drop=True)
     df['news_headline'] = df['news_headline'].str.strip()
@@ -95,9 +100,6 @@ def load_data():
     )
 
     return df
-
-df = load_data()
-
 # ── HEADER ────────────────────────────────
 st.markdown('<h1 class="main-header">📈 Financial News Intelligence Platform</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtext">AI-Powered Sentiment Analysis for Financial Markets</p>', unsafe_allow_html=True)
